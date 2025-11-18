@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea cols="50" rows="10" placeholder="Tutaj wpisz tekst do analizy..." id="user-input"></textarea>
+    <br>
+    <button onclick="analyze()">Analizuj</button>
+
+    <p>liczba slow: <span id="count-words"></span></p>
+    <p>Liczba znakow z spacjami: <span id="count-characters"></span></p>
+    <p>Liczba znakow bez spacji: <span id="count-characters-no-spaces"></span></p>
+    <p>najdłuższe słowo w tekście: <span id="longest-word"></span></p>
+    <p>średnie dlugosc slowa: <span id="average-word"></span></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
